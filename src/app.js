@@ -10,6 +10,9 @@ import {addExpense} from './actions/expenseAction';
 import {setTextFilter} from './actions/filterAction';
 import getVisibleExpenses from './selectors/expenseSelector';
 
+import './firebase/firebase';
+
+
 const store =configureStore();
 
 const jsx = (
