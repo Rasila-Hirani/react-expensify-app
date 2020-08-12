@@ -12,10 +12,17 @@
     border-radius: 3px;
     padding: $l-size $m-size;
     text-align: center;
-    width: 25rem;
+    width:40rem;
 }
 
 .box-layout__title{
     margin: 0 0 $m-size 0;
     line-height: 1;
+}
+
+.box-layout_button{
+  margin: $s-size 0;
+}
+.box-layout_span{
+    padding: 0 $s-size;
 }

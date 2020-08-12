@@ -64,7 +64,7 @@ class ExpenseListFilters extends React.Component{
 
 
 const mapStateToProps =(state)=>{ 
-    //console.log(typeof(state.filters.startDate)) 
+  
     return{
        
         filters:state.filters
